@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+    background-color: green;
+    color: white;
+
+    height: 100px;
+    width: 200px;
+    /* ci sono delle propreità che sono abbreviate */
+    border: black 2px dashed;
+     /*questo ci permetto di mettere tutto sulla stessa riga  */
+    /* border-color: black;
+    border-width: 2px;
+    border-style: dashed; */
+}
+
+
+p{
+    /* spessore del font */
+    font-weight: bold;
+    font-weight: normal;
+    /* le modifiche avvengono a cascata, cioè l'ultima cosa che è stata scritta */
+    font-size: 22px;
+
+    text-align: justify;
+
+}
+/* posso bersagliare un lemento tramite il suo tag */
+#secondo-paragrafo {
+    background-color: black;
+    color: white;
+}
+
+/* le classi verranno richiamate con il "." */
+.sfondo-grigio{
+    background-color: grey;
+}
+
+/* gli id sovrascrivono tutto
+ le classi sovrascrivono i selettori tag
+ i tag sovrascrivono lo stile user agent*/
+
+ /* ci sono diversi modi per indicare un colore */
+
+ h3{
+    background-color: #722a2a;
+    background-color: rgb(0%, 0%, 100%);
+ }
